@@ -11,8 +11,9 @@ Public installer download. Anyone can install it and use it on their own interne
 
 ## This build
 
-- Version `v2.0-debug` (debug-signed build, free to sideload).
-- SHA-256: `1926912ea5291e99170236a00b59dd1ffb9bda0e807611a303cc657a2fb5e3ac`
+- Version `v2.0.1-debug` (debug-signed build, free to sideload).
+- SHA-256: `3e133bb1248c3e197f18e11ff7b21d3d8c6a0c02eb358a256dbe1341cde66b39`
+- Fixes Google sign-in: the account chooser now opens on every device (2.0 could show "Failed to launch the selector UI" on some phones).
 - Voice/video calls connect over the internet, with TURN relay when a direct path is not possible.
 
 This repository hosts only the installer. Application source lives in a separate private repository.
